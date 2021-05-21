@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "297309048464",
+    "firebase_url": "https://faceb-de3b3.firebaseio.com",
+    "project_id": "faceb-de3b3",
+    "storage_bucket": "faceb-de3b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297309048464:android:1cc513329fe70b57e4d215",
+        "android_client_info": {
+          "package_name": "com.example.MyApplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxMHgofJzZWNgIfFoGMPOUM-GFq6fcNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297309048464:android:b6b2f5d5461e57aae4d215",
+        "android_client_info": {
+          "package_name": "com.example.firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxMHgofJzZWNgIfFoGMPOUM-GFq6fcNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297309048464:android:c1adc531c724b532e4d215",
+        "android_client_info": {
+          "package_name": "com.example.kotlin_authorisation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxMHgofJzZWNgIfFoGMPOUM-GFq6fcNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297309048464-romm328b54veq0nktfk1lmql4gjdu3jm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
