@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">firebase-login</string>
+    <string name="search" />
+    <string name="more" />
+    <string name="content_description_search" />
+    <string name="content_description_more" />
+    <string name="qggqecug">qggqecug</string>
 </resources>

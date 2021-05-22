@@ -38,7 +38,7 @@ public class retrive_data  {
 
                      recyclerView.setHasFixedSize(true);
                      recyclerView.setLayoutManager(new LinearLayoutManager(context));
-                     Adapter adapter = new Adapter(information);
+                     Adapter adapter = new Adapter(information,context);
                      recyclerView.setAdapter(adapter);
                  }
 
