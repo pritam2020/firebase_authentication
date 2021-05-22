@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.firebase_login.Activities.BaseActivity;
-import com.example.firebase_login.Activities.task;
+import com.example.firebase_login.Activities.View_task;
 import com.example.firebase_login.R;
 import com.example.firebase_login.database.database_model;
 
@@ -39,8 +39,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewholder> {
     public void onBindViewHolder( Adapter.MyViewholder holder, int position) {
         String name=information.get(position).getName();
         holder.textView.setText(name);
-        holder.textView.setOnClickListener(v -> {
-            Intent intent=new Intent(context, task.class);
+        holder.cardView.setOnClickListener(v -> {
+            Intent intent=new Intent(context, View_task.class);
             intent.putExtra("name",information.get(position).getName());
             intent.putExtra("task",information.get(position).getTask());
             context.startActivity(intent);
@@ -54,8 +54,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewholder> {
 
     public class MyViewholder extends RecyclerView.ViewHolder {
         TextView textView;
+        CardView cardView;
         public MyViewholder( View itemView) {
             super(itemView);
+            cardView=itemView.findViewById(R.id.recycle_card);
             textView=itemView.findViewById(R.id.name_field);
         }
     }

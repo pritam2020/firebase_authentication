@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:gravity="center">
         <TextView
-            android:textColor="@color/black"
+
             android:id="@+id/name_field"
             android:text="hellow"
             android:textSize="20sp"

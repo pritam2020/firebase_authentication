@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebaselogin">
-        <activity android:name=".Activities.task"></activity>
+        <activity android:name=".Activities.add_task"></activity>
+        <activity android:name=".Activities.View_task" />
         <activity android:name=".Activities.BaseActivity" />
         <activity android:name=".Activities.MainActivity">
             <intent-filter>

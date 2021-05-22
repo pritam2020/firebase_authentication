@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         authentication=new authentication(MainActivity.this);
         sign.setOnClickListener(v->{
           user= authentication.sign_in(v);
+            Intent intent=new Intent(MainActivity.this, BaseActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
         });
 
     }

@@ -5,4 +5,6 @@
     <string name="content_description_search" />
     <string name="content_description_more" />
     <string name="qggqecug">qggqecug</string>
+    <string name="save">SAVE</string>
+    <string name="write_the_task">write the task</string>
 </resources>
